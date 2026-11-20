@@ -1,0 +1,324 @@
+{
+  "exported_at": "2026-11-19T01:00:00Z",
+  "source": "Meridian Policy Lab workspace (fictional demo data)",
+  "staff": [
+    {
+      "id": "s-01",
+      "name": "Asha Menon",
+      "role": "Executive Director",
+      "team": "Leadership",
+      "email": "asha.menon@meridianpolicylab.example"
+    },
+    {
+      "id": "s-02",
+      "name": "Daniel Okafor",
+      "role": "Head of Research",
+      "team": "Research",
+      "email": "daniel.okafor@meridianpolicylab.example"
+    },
+    {
+      "id": "s-03",
+      "name": "Lena Fischer",
+      "role": "Senior Policy Analyst",
+      "team": "Research",
+      "email": "lena.fischer@meridianpolicylab.example"
+    },
+    {
+      "id": "s-04",
+      "name": "Rafael Costa",
+      "role": "Policy Analyst",
+      "team": "Research",
+      "email": "rafael.costa@meridianpolicylab.example"
+    },
+    {
+      "id": "s-05",
+      "name": "Mei Tanaka",
+      "role": "Communications Lead",
+      "team": "Communications",
+      "email": "mei.tanaka@meridianpolicylab.example"
+    },
+    {
+      "id": "s-06",
+      "name": "Priya Nair",
+      "role": "Operations Manager",
+      "team": "Operations",
+      "email": "priya.nair@meridianpolicylab.example"
+    },
+    {
+      "id": "s-07",
+      "name": "Tomas Rivera",
+      "role": "Events Coordinator",
+      "team": "Operations",
+      "email": "tomas.rivera@meridianpolicylab.example"
+    },
+    {
+      "id": "s-08",
+      "name": "Hannah Berg",
+      "role": "Systems Lead",
+      "team": "Operations",
+      "email": "hannah.berg@meridianpolicylab.example"
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-0001",
+      "title": "Annual Report 2025",
+      "summary": "What the lab did in 2025: 14 publications, 9 events, and how the budget was spent.",
+      "topic": "Organisation",
+      "published_on": "2026-02-10",
+      "author_id": "s-01",
+      "url": "https://meridianpolicylab.example/publications/annual-report-2025"
+    },
+    {
+      "id": "pub-0002",
+      "title": "Strategy 2026 to 2028",
+      "summary": "Three priorities for the next three years: evaluation standards, public-sector capacity and open data.",
+      "topic": "Organisation",
+      "published_on": "2026-01-20",
+      "author_id": "s-01",
+      "url": "https://meridianpolicylab.example/publications/strategy-2026-to-2028"
+    },
+    {
+      "id": "pub-0003",
+      "title": "A plain-language guide to AI risk tiers",
+      "summary": "Explains how risk tiers work in current AI rules and what each tier asks of a deployer.",
+      "topic": "AI governance",
+      "published_on": "2025-03-12",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/a-plain-language-guide-to-ai-risk-tiers"
+    },
+    {
+      "id": "pub-0004",
+      "title": "Model evaluations: what regulators can ask for",
+      "summary": "A checklist of evaluation evidence a regulator can reasonably request before deployment.",
+      "topic": "AI governance",
+      "published_on": "2025-05-06",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/model-evaluations-what-regulators-can-ask-for"
+    },
+    {
+      "id": "pub-0005",
+      "title": "Auditing automated decisions in welfare services",
+      "summary": "Lessons from three audits of automated eligibility decisions, with a reusable audit template.",
+      "topic": "Digital public services",
+      "published_on": "2025-06-18",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/auditing-automated-decisions-in-welfare-services"
+    },
+    {
+      "id": "pub-0006",
+      "title": "Data sharing agreements for small charities",
+      "summary": "A model agreement and a one-page explainer for charities that share beneficiary data.",
+      "topic": "Data protection",
+      "published_on": "2025-07-02",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/data-sharing-agreements-for-small-charities"
+    },
+    {
+      "id": "pub-0007",
+      "title": "Procurement questions for AI systems",
+      "summary": "Twenty questions a public buyer should ask an AI vendor, grouped by stage of procurement.",
+      "topic": "Digital public services",
+      "published_on": "2025-08-14",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/procurement-questions-for-ai-systems"
+    },
+    {
+      "id": "pub-0008",
+      "title": "Children's data and recommender systems",
+      "summary": "Reviews the evidence on recommender systems and minors, and proposes default-off settings.",
+      "topic": "Data protection",
+      "published_on": "2025-09-09",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/children-s-data-and-recommender-systems"
+    },
+    {
+      "id": "pub-0009",
+      "title": "Compute reporting: options for a national register",
+      "summary": "Compares three designs for a register of large training runs and their costs.",
+      "topic": "AI governance",
+      "published_on": "2025-10-01",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/compute-reporting-options-for-a-national-register"
+    },
+    {
+      "id": "pub-0010",
+      "title": "Red teaming in practice: a field guide",
+      "summary": "How to scope, staff and report a red-team exercise for a general-purpose model.",
+      "topic": "AI governance",
+      "published_on": "2025-10-28",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/red-teaming-in-practice-a-field-guide"
+    },
+    {
+      "id": "pub-0011",
+      "title": "Open data for air quality: a city playbook",
+      "summary": "Steps a city can take to publish air-quality data that residents can actually use.",
+      "topic": "Digital public services",
+      "published_on": "2025-11-11",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/open-data-for-air-quality-a-city-playbook"
+    },
+    {
+      "id": "pub-0012",
+      "title": "Consent that works on a phone screen",
+      "summary": "Design patterns for consent screens that people read, tested with 600 participants.",
+      "topic": "Data protection",
+      "published_on": "2025-12-03",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/consent-that-works-on-a-phone-screen"
+    },
+    {
+      "id": "pub-0013",
+      "title": "Whistleblowing channels in AI companies",
+      "summary": "What an effective internal reporting channel needs, based on interviews with 22 engineers.",
+      "topic": "AI governance",
+      "published_on": "2026-01-15",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/whistleblowing-channels-in-ai-companies"
+    },
+    {
+      "id": "pub-0014",
+      "title": "Translating rules into tests",
+      "summary": "Turns four common legal requirements into concrete tests an engineering team can run.",
+      "topic": "AI governance",
+      "published_on": "2026-02-24",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/translating-rules-into-tests"
+    },
+    {
+      "id": "pub-0015",
+      "title": "Public registers of algorithms: one year on",
+      "summary": "Finds that most registers are incomplete and proposes a minimum set of fields.",
+      "topic": "Digital public services",
+      "published_on": "2026-03-10",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/public-registers-of-algorithms-one-year-on"
+    },
+    {
+      "id": "pub-0016",
+      "title": "Retention schedules for chat logs",
+      "summary": "How long should an organisation keep chatbot conversations? A decision tree.",
+      "topic": "Data protection",
+      "published_on": "2026-03-31",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/retention-schedules-for-chat-logs"
+    },
+    {
+      "id": "pub-0017",
+      "title": "Third-party assurance for AI: who checks the checkers",
+      "summary": "Maps the assurance market and where conflicts of interest arise.",
+      "topic": "AI governance",
+      "published_on": "2026-04-22",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/third-party-assurance-for-ai-who-checks-the-checkers"
+    },
+    {
+      "id": "pub-0018",
+      "title": "A budget for digital services in small councils",
+      "summary": "A costed plan for a council of 50,000 residents to run five core services online.",
+      "topic": "Digital public services",
+      "published_on": "2026-05-13",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/a-budget-for-digital-services-in-small-councils"
+    },
+    {
+      "id": "pub-0019",
+      "title": "Biometric data at the border",
+      "summary": "Reviews safeguards for biometric checks and recommends independent oversight.",
+      "topic": "Data protection",
+      "published_on": "2026-06-09",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/biometric-data-at-the-border"
+    },
+    {
+      "id": "pub-0020",
+      "title": "Post-deployment monitoring of AI systems",
+      "summary": "What to measure after launch, how often, and who should see the results.",
+      "topic": "AI governance",
+      "published_on": "2026-07-07",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/post-deployment-monitoring-of-ai-systems"
+    },
+    {
+      "id": "pub-0021",
+      "title": "Accessible forms: a checklist for public teams",
+      "summary": "Forty checks that catch most accessibility failures in online forms.",
+      "topic": "Digital public services",
+      "published_on": "2026-08-18",
+      "author_id": "s-04",
+      "url": "https://meridianpolicylab.example/publications/accessible-forms-a-checklist-for-public-teams"
+    },
+    {
+      "id": "pub-0022",
+      "title": "Synthetic data: promises and limits",
+      "summary": "When synthetic data protects privacy and when it does not, with worked examples.",
+      "topic": "Data protection",
+      "published_on": "2026-09-15",
+      "author_id": "s-03",
+      "url": "https://meridianpolicylab.example/publications/synthetic-data-promises-and-limits"
+    },
+    {
+      "id": "pub-0023",
+      "title": "Liability for AI agents acting for users",
+      "summary": "Who is responsible when an AI agent makes a purchase or signs up for a service.",
+      "topic": "AI governance",
+      "published_on": "2026-10-20",
+      "author_id": "s-02",
+      "url": "https://meridianpolicylab.example/publications/liability-for-ai-agents-acting-for-users"
+    },
+    {
+      "id": "pub-0024",
+      "title": "Half-year update, autumn 2026",
+      "summary": "Progress against the strategy: six publications, two workshops and a new data programme.",
+      "topic": "Organisation",
+      "published_on": "2026-11-03",
+      "author_id": "s-05",
+      "url": "https://meridianpolicylab.example/publications/half-year-update-autumn-2026"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "Winter workshop on model evaluations",
+      "starts_on": "2026-12-09",
+      "location": "Online",
+      "owner_id": "s-07"
+    },
+    {
+      "id": "evt-002",
+      "title": "Staff planning day",
+      "starts_on": "2026-12-16",
+      "location": "Lisbon office",
+      "owner_id": "s-06"
+    },
+    {
+      "id": "evt-003",
+      "title": "Roundtable: procurement of AI in health services",
+      "starts_on": "2027-01-21",
+      "location": "Brussels",
+      "owner_id": "s-07"
+    },
+    {
+      "id": "evt-004",
+      "title": "Data protection clinic for charities",
+      "starts_on": "2027-02-04",
+      "location": "Online",
+      "owner_id": "s-07"
+    },
+    {
+      "id": "evt-005",
+      "title": "Annual lecture 2027",
+      "starts_on": "2027-03-11",
+      "location": "Lisbon",
+      "owner_id": "s-05"
+    },
+    {
+      "id": "evt-006",
+      "title": "Board meeting, spring",
+      "starts_on": "2027-03-25",
+      "location": "Online",
+      "owner_id": "s-01"
+    }
+  ]
+}

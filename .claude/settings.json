@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(npm run sync)",
+      "Bash(npm run sync -- --skip *)",
+      "Bash(npm run -s sync)",
+      "Bash(npm run -s sync -- --skip *)",
+      "Bash(npm run demo*)"
+    ],
+    "deny": [
+      "Edit(/source/**)"
+    ]
+  }
+}

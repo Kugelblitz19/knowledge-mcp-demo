@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.pgdata/
+logs/
+alerts/
+# The working copy of the export. `npm run demo:reset` creates it from export.healthy.json.
+source/export.json
+# Incident notes from practice runs. The template stays. `npm run demo:reset` moves old notes to .practice/.
+.practice/
+incidents/*
+!incidents/TEMPLATE.md
+.DS_Store

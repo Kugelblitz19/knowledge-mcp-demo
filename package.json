@@ -1,0 +1,51 @@
+{
+  "name": "knowledge-mcp-server",
+  "version": "0.1.0",
+  "description": "Demo: a staff knowledge-base MCP server on PostgreSQL with a nightly sync, monitoring checks and a runbook",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "knowledge-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json",
+    "start": "node dist/index.js",
+    "mcp": "tsx src/index.ts",
+    "db:start": "tsx scripts/db.ts start",
+    "db:stop": "tsx scripts/db.ts stop",
+    "db:status": "tsx scripts/db.ts status",
+    "sync": "tsx src/sync.ts",
+    "checks": "tsx src/checks.ts",
+    "runs": "tsx src/runs.ts",
+    "smoke": "tsx scripts/smoke.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "demo:reset": "tsx scripts/demo.ts reset",
+    "demo:break": "tsx scripts/demo.ts break",
+    "demo:stage": "tsx scripts/db.ts start && tsx scripts/demo.ts reset && tsx scripts/demo.ts break"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@modelcontextprotocol/express": "^2.0.2",
+    "@modelcontextprotocol/node": "^2.1.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.11.0",
+    "embedded-postgres": "17.11.0-beta.19",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "@embedded-postgres/darwin-arm64@17.11.0-beta.19": true,
+    "esbuild@0.28.2": true
+  }
+}
